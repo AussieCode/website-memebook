@@ -1,16 +1,34 @@
 body {
-    margin:0;
-    padding:0;
+	margin:0;
+	padding:0;
 }
-
-/* Navigation Section */ 
-
 #navigator{
-    background-color:rgb(204, 102, 0);
-    height:50px;
+	background-color:rgb(204, 102, 0);
+	height:50px;
 }
 #navigator-banner{
-    background-color:rgb(255, 128, 0);
-    height:300px;
+	background-color:rgb(255, 128, 0);
+	height:300px;
 }
-SS
+
+/* Navigation Menu */ 
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
