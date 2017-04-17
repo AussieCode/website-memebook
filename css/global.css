@@ -2,6 +2,7 @@ body{
 	margin:0;
 }
 
+/*Navigation */
 
 .navigation{
 	background-color: #333;
@@ -34,23 +35,76 @@ body{
 	display:inline-block;
 }
 
-/* Container for main content */
+/* Container wrap */
 
-.content-wrap{
+.center-wrap{
 	background-color:black;
-	height:90%;
-	width: 95%;
-	margin: 20px auto;
-}
-.content-middlecontainer{
-	background-color:red;
-	width:50%;
+	width:auto;
 	height:100%;
-	float:left;
+
+/* Container left section */
+
 }
-.content-sidecontainer{
+
+.leftcontent-container{
+	background-color:red;
+	height:100%;
+	width:45%;
+	float:left;
+	/*max-width:45%;*/
+}
+
+.content-container{
+	width: 98%;
+}
+
+/* Container side section*/
+
+.rightcontent-container{
 	background-color:green;
-	width:50%;
+	width:45%;
 	height:100%;
 	float:right;
 }
+
+
+/* Rest is just old code 
+
+.content-container{
+	width: 98%;
+}
+
+.content-middlebox{
+	background-color:rgb(242, 242, 242);
+	border: 1px solid rgb(230, 230, 230);
+	border-radius:2px;
+	margin: 0 auto;
+}
+
+.content-middletitle{
+	color:orange;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:rgb(128, 128, 128);
+	font-size:18px;
+}
+.content-middlecreated{
+	margin-top:-15px;
+}
+.content-middlesearch{
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-repeat: no-repeat;
+    width:100%;
+    padding: 12px 20px 12px 40px;
+    margin-top:10px;
+}
+.content-middleimage{
+	max-width:100%;
+	max-height:100%;
+}
+
+*/
